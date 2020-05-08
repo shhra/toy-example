@@ -4,6 +4,7 @@ _(Note: requirement follows the questionnaire)_
 ## About the Company
 
 **Name**: behemoth Soft Pvt. Ltd
+
 **Contacts**: www.Bsoft.com
 
 ### What does your business do?    
@@ -34,15 +35,14 @@ It operates on all domains in the tech industry. Think of us as the big daddy of
 
 **Fusemachines Project Owner**:
 
-Shailesh Mishra
-shailesh@fusemachines.com
-Lead and Sr. Machine Learning Engineer
+		Shailesh Mishra
+		shailesh@fusemachines.com
+		Lead and Sr. Machine Learning Engineer
 
---------------------
 
-Srijana Raut
-srijanaraut@fusemachines.com
-Sr. Machine Learning Engineer
+		Srijana Raut
+		srijanaraut@fusemachines.com
+		Sr. Machine Learning Engineer
 
 ## Context on the Product
 We need to know where the product fits in in their overall scheme of things.
