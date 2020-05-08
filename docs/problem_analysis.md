@@ -2,11 +2,15 @@
 
 **Task**
 
-		We want a model that can predict the emotion as well as the sentiment in the sentence 			so that it can be used to visualize the model.
+		We want a model that can predict the emotion as well 
+		as the sentiment in the sentence 
+		so that it can be used to visualize the model.
 
 **Experience** 
 
-		Using a corpus of sentences (social media feeds) that have a defined emotion as 		labels, we can train a language model to perform classification.
+		Using a corpus of sentences (social media feeds) that have 
+		a defined emotion as labels, 
+		we can train a language model to perform classification.
 
 **Performance**
 
@@ -14,11 +18,15 @@
 
 **Success Criteria**
 
-		It’s a success if the model can group tweets based on a product and visualize the 			amount of social media feeds for different emotions about the product.
+		It’s a success if the model can group tweets based on a product 
+		and visualize the amount of social media feeds
+		for different emotions about the product.
 
 **Other metric of interest are**
 
-		We may also be interested in the speed at which the algorithm classifies the 			sentence. If the algorithm is slow then it wouldn’t be beneficial to us.
+		We may also be interested in the speed at which
+		the algorithm classifies the sentence. 
+		If the algorithm is slow then it wouldn’t be beneficial to us.
 
 ## Solution Formulation 
 
