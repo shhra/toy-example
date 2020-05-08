@@ -3,6 +3,9 @@ _(Note: requirement follows the questionnaire)_
 
 ## About the Company
 
+**Name**: behemoth Soft Pvt. Ltd
+**Contacts**: www.Bsoft.com
+
 ### What does your business do?    
 Being a software behemoth, Soft has multiple users from common users who use computers for personal use to enterprise and businesses using their servers and OS for performing day to day transactions.
 
@@ -15,7 +18,31 @@ Soft’s mission is to empower every person and organization on the planet to ac
 ### What should we know about the domain the company operates in?    
 It operates on all domains in the tech industry. Think of us as the big daddy of the tech. We are the best.
 
+**Country of operation**: USA, Canada
 
+**Point of contact**:
+
+		Andrew NG
+		Sr. Marketing Manager
+		andrew@bsoft.com
+
+		Kaira Elmer
+		Sr. Database adminstrator
+		kaira@bsoft.com
+
+--------------------------------
+
+**Fusemachines Project Owner**:
+
+Shailesh Mishra
+shailesh@fusemachines.com
+Lead and Sr. Machine Learning Engineer
+
+--------------------
+
+Srijana Raut
+srijanaraut@fusemachines.com
+Sr. Machine Learning Engineer
 
 ## Context on the Product
 We need to know where the product fits in in their overall scheme of things.
