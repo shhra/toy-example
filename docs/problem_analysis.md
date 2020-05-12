@@ -21,6 +21,12 @@
 		It’s a success if the model can group tweets based on a product 
 		and visualize the amount of social media feeds
 		for different emotions about the product.
+                
+                 i.e 
+
+		It's a success if customer satisfaction increased by 45%,
+		increase in accuracy by 40% than previous model, 
+		and revenues increased by 20%
 
 **Other metric of interest are**
 
