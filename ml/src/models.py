@@ -1,6 +1,5 @@
 from nltk import everygrams
 from nltk.classify import NaiveBayesClassifier, util
-from sklearn.naive_bayes import MultinomialNB
 
 
 class NBClassifier:
