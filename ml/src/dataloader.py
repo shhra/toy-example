@@ -91,13 +91,6 @@ if __name__ == '__main__':
     tokens = processor.tokenize(sentence)
     tokenized_sentence = processor.tokenized_sentence(tokens)
     train, test = emotion_dataset(tokenized_sentence.tolist(),
-                              labels.tolist(), ngrams=2)
+                                  labels.tolist(), ngrams=2)
     dataset_iter = iter(train)
     print(next(dataset_iter))
-
-
-
-
-
-
-

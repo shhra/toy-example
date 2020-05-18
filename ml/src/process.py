@@ -47,11 +47,11 @@ class PreprocessText:
 
     def vectorize(self, sentence, flag='T'):
         if flag == 'T':
-            vectorier = TfidfVectorizer(max_features=1500)
+            vectorizer = TfidfVectorizer(max_features=1500)
         elif flag == 'C':
-            vectorier = CountVectorizer(max_features=1500)
-        vectorized = vectorier.fit_transform(sentence)
-        return vectorized
+            vectorizer = CountVectorizer(max_features=1500)
+        vectorized = vectorizer.fit_transform(sentence)
+        return vectorized, vectorizer
 
 
 if __name__ == '__main__':
