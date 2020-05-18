@@ -2,7 +2,6 @@
 import os
 import pickle
 import spacy
-from sklearn.feature_extraction.text import CountVectorizer
 
 
 def save_model(model, name):
@@ -17,20 +16,24 @@ def load_model(name):
     return model
 
 
-def infer(txt):
-    nlp = spacy.load("en_core_web_sm")
-    tokens = nlp(txt)
-    sentence = ' '.join([x.text for x in tokens])
-    vectorizer = load_model('vectorizer.sav')
-    out = vectorizer.transform([sentence])
-    model = load_model('sentence_classifier.sav')
-    output = model.predict(out)
-    encoder = load_model('encoder.sav')
-    result = encoder.inverse_transform(output)
-    return result[0]
+class Inference:
+    def __init__(self):
+        self.vectorizer = load_model('vectorizer.sav')
+        self.model = load_model('sentence_classifier.sav')
+        self.encoder = load_model('encoder.sav')
+
+    def infer(self, txt):
+        nlp = spacy.load("en_core_web_sm")
+        tokens = nlp(txt)
+        sentence = ' '.join([x.text for x in tokens])
+        out = self.vectorizer.transform([sentence])
+        output = self.model.predict(out)
+        result = self.encoder.inverse_transform(output)
+        return result[0]
 
 
 if __name__ == '__main__':
-    emotion = infer("WHAT AM I DOING WITH LIFE")
+    inf = Inference()
+    emotion = inf.infer("WHAT AM I DOING WITH LIFE")
     print(emotion)
 
