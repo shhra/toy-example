@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+    application:
+        build: ./
+        #command: gunicorn -c gunicorn_ini.py wsgi:app
+        command: python wsgi.py
+        volumes:
+            - ./:/usr/src/app/
+        ports:
+            - 5000:5000
+        network_mode: "host"
