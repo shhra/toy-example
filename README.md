@@ -1,5 +1,6 @@
 ### Emotion Detection 
 A emotion recognition project assigned at training. This is NLP problem where emotion should classify through a text data. 
+See the  [Slides](https://github.com/shhra/toy-example/blob/alpha/Emotion%20.pptx.pdf)
 
 ### Project Structure
 
