@@ -78,4 +78,10 @@ Docker file is also added for reproducibility
 
 Note: To see the result you have to run the url in postman. For postman you can either download in your local machine and paste the url to view result or simply you can browse postman in your browser.[Highly recommend -Chrome:] 
 
+Also, You can tweak the `DB_NAME` in  the config file. Please keep the config file in order directory as shown above. i.e 
+			
+			instance/config/config.json
+			
+**Enjoy the Project !!**
+
 
