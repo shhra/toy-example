@@ -34,10 +34,13 @@ A emotion recognition project assigned at training. This is NLP problem where em
 		|   |
 		│   ├── docker-compose.yml     <-docker file   
 		|   |   
-		|   |
-		│   ├── flask      
-		│   ├── requirements.txt          <-Pip generated requirements file for the project.
-		│   ├── wsgi.py     <- flask end point added
+		|__ instance
+		|      |__config
+		|           |___ config.json        <-Database Configuration file
+		|      
+		│── flask      
+		│── requirements.txt          <-Pip generated requirements file for the project.
+		│── wsgi.py     <- flask end point added
 
 ### Getting Started
 
