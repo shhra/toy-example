@@ -16,7 +16,7 @@ entrypoints==0.3
 flake8==3.8.1
 Flask==1.1.2
 Flask-PyMongo==2.3.0
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 Flask-RESTful==0.3.8
 future==0.18.2
 greenlet==0.4.15
